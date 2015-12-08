@@ -13,7 +13,7 @@ document.getElementsByTagName("body")[0].innerHTML = theirNewBody;
 // Create iframe, get api code, send current url
 var ifrm = document.createElement("IFRAME");
 ifrm.id = "chatensionIframe";
-ifrm.src = "http://localhost:3000/?currentUrl="+currentUrl;
+ifrm.src = "https://chatension.herokuapp.com/?currentUrl="+currentUrl;
 ifrm.height = window.innerHeight;
 
 // Append the iframe before theirBody div.
