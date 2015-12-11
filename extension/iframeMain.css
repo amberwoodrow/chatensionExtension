@@ -8,4 +8,9 @@
   overflow: auto;
   width: 25%;
   background: transparent;
+  border: none;
+}
+
+#theirBody {
+  height: 100%
 }

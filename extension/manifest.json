@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
-  "version": "1.0",
+  "name": "Chatension",
+  "description": "Chat on any url",
+  "version": "1.0.2",
   "background": {
     "scripts": ["background.js"]
   },
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "chatensionLogo.png",
     "default_title": "Click here!"
   },
   "permissions": [
